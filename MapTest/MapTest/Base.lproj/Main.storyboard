@@ -92,9 +92,24 @@
                     <view key="view" contentMode="scaleToFill" id="FCB-CW-IQk">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jjM-ej-hTo" customClass="BMKMapView">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="jjM-ej-hTo" secondAttribute="trailing" id="38r-j1-xep"/>
+                            <constraint firstItem="ibe-nk-Ifa" firstAttribute="top" secondItem="jjM-ej-hTo" secondAttribute="bottom" id="3tN-OG-jT0"/>
+                            <constraint firstItem="jjM-ej-hTo" firstAttribute="leading" secondItem="FCB-CW-IQk" secondAttribute="leading" id="Bno-Ts-u6N"/>
+                            <constraint firstItem="jjM-ej-hTo" firstAttribute="top" secondItem="ekb-PH-D2M" secondAttribute="bottom" id="lCl-za-yez"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="si9-5n-pci"/>
+                    <connections>
+                        <outlet property="mapView" destination="jjM-ej-hTo" id="kuN-ly-JbV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9a6-lp-vid" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -13,6 +13,7 @@
 		4C2497201D348D5800FFB4E7 /* poi_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C24971D1D348D5800FFB4E7 /* poi_3.png */; };
 		4C2497231D34BB7300FFB4E7 /* WZBaiduController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2497221D34BB7300FFB4E7 /* WZBaiduController.m */; };
 		4C2497261D34BB9000FFB4E7 /* WZAnnotationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2497251D34BB9000FFB4E7 /* WZAnnotationController.m */; };
+		4C24972F1D34BE5700FFB4E7 /* WZCustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C24972E1D34BE5700FFB4E7 /* WZCustomAnnotationView.m */; };
 		4C564AFE1D3388B0006EBF87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C564AFD1D3388B0006EBF87 /* main.m */; };
 		4C564B011D3388B0006EBF87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C564B001D3388B0006EBF87 /* AppDelegate.m */; };
 		4C564B071D3388B0006EBF87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C564B051D3388B0006EBF87 /* Main.storyboard */; };
@@ -43,6 +44,8 @@
 		4C2497221D34BB7300FFB4E7 /* WZBaiduController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZBaiduController.m; sourceTree = "<group>"; };
 		4C2497241D34BB9000FFB4E7 /* WZAnnotationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZAnnotationController.h; sourceTree = "<group>"; };
 		4C2497251D34BB9000FFB4E7 /* WZAnnotationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZAnnotationController.m; sourceTree = "<group>"; };
+		4C24972D1D34BE5700FFB4E7 /* WZCustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZCustomAnnotationView.h; sourceTree = "<group>"; };
+		4C24972E1D34BE5700FFB4E7 /* WZCustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZCustomAnnotationView.m; sourceTree = "<group>"; };
 		4C564AF91D3388AF006EBF87 /* MapTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C564AFD1D3388B0006EBF87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4C564AFF1D3388B0006EBF87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -127,6 +130,8 @@
 				4C2497221D34BB7300FFB4E7 /* WZBaiduController.m */,
 				4C2497241D34BB9000FFB4E7 /* WZAnnotationController.h */,
 				4C2497251D34BB9000FFB4E7 /* WZAnnotationController.m */,
+				4C24972D1D34BE5700FFB4E7 /* WZCustomAnnotationView.h */,
+				4C24972E1D34BE5700FFB4E7 /* WZCustomAnnotationView.m */,
 				4C2497181D3489AF00FFB4E7 /* MyAnimatedAnnotationView.h */,
 				4C2497191D3489AF00FFB4E7 /* MyAnimatedAnnotationView.m */,
 				4C564B051D3388B0006EBF87 /* Main.storyboard */,
@@ -227,6 +232,7 @@
 				4C2497231D34BB7300FFB4E7 /* WZBaiduController.m in Sources */,
 				4C24971A1D3489AF00FFB4E7 /* MyAnimatedAnnotationView.m in Sources */,
 				4C2497261D34BB9000FFB4E7 /* WZAnnotationController.m in Sources */,
+				4C24972F1D34BE5700FFB4E7 /* WZCustomAnnotationView.m in Sources */,
 				4C564B011D3388B0006EBF87 /* AppDelegate.m in Sources */,
 				4C564AFE1D3388B0006EBF87 /* main.m in Sources */,
 			);
